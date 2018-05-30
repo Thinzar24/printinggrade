@@ -1,0 +1,36 @@
+INPUT 
+Student_number
+Student_name
+Student_test_score 
+
+OUTPUT 
+Student_test_reuslts 
+Student_test_grades
+
+PROCESSING STEPS 
+Print a student_test_results
+Read test record
+Calculate test score as a percentage 
+Print student_number, 
+Print Student_name
+Print student_test_results
+
+PSEUDOCODE
+Print "Student_test_score Report" heading
+    Read student_grades 
+ IF student_test_score 90%-100% 
+    set_grade = A 
+	
+ ELSE IF student_test_score 80%-89%
+    set_grade = B
+  
+ ELSE IF student_test_score 70%-79%
+    set_grade = C
+ ELSE IF student_grades 60%-69%
+    set_grade = D
+ ElSE IF student_test_score 0%-59% 
+    set_grade = F  
+  
+ ENDIF 
+ 
+
